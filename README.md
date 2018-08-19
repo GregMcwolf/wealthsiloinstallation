@@ -7,7 +7,7 @@ Shell script to install a Wealthsilo on a Linux server running Ubuntu 14.04 or 1
 ```
 wget https://raw.githubusercontent.com/pelermu/wealthsiloinstallation/master/install.sh
 chmod 740
-bash dvd.sh
+bash install.sh
 ```
 ***
 
