@@ -1,6 +1,6 @@
 # wealthsiloinstallation
 # Wealthsilo
-Shell script to install a [Dividend.Cash Masternode](https://dividend.cash/) on a Linux server running Ubuntu 14.04 or 16.04. Use it on your own risk.
+Shell script to install a Wealthsilo on a Linux server running Ubuntu 14.04 or 16.04. Use it on your own risk.
 
 ***
 ## Installation:
