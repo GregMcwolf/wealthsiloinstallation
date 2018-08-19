@@ -1,12 +1,11 @@
-# wealthsiloinstallation
-# Wealthsilo
+# Wealthsilo Masternode Fast Script
 Shell script to install a Wealthsilo on a Linux server running Ubuntu 14.04 or 16.04. Use it on your own risk.
 
 ***
 ## Installation:
 ```
 wget https://raw.githubusercontent.com/pelermu/wealthsiloinstallation/master/install.sh
-chmod 740
+chmod 740 install.sh
 bash install.sh
 ```
 ***
