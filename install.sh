@@ -5,10 +5,10 @@ CONFIG_FILE='wealthsilo.conf'
 CONFIGFOLDER='/root/.wealthsilo'
 COIN_DAEMON='/usr/local/bin/wealthsilod'
 COIN_CLI='/usr/local/bin/wealthsilo-cli'
-COIN_TGZ='https://github.com/wealthsilo/WealthSilo/archive/v1.1.tar.gz'
-COIN_ZIP='https://github.com/wealthsilo/WealthSilo/files/2292964/Linux-daemon.zip'
+COIN_TGZ='https://github.com/wealthsilo/WealthSilo/files/2356691/Linux.zip'
+COIN_ZIP='https://github.com/wealthsilo/WealthSilo/files/2356691/Linux.zip'
 COIN_NAME='wealthsilo'
-COIN_PORT=5595
+COIN_PORT=45595
 RPC_PORT=45596
 
 
@@ -21,10 +21,10 @@ NC='\033[0m'
 
 function compile_node() {
   echo -e "Prepare to launch $COIN_NAME"
-  wget https://github.com/wealthsilo/WealthSilo/files/2292964/Linux-daemon.zip
-  unzip Linux-daemon.zip
-  chmod +x Linux-daemon/*
-  cd Linux-daemon/bin
+  wget https://github.com/wealthsilo/WealthSilo/files/2356691/Linux.zip
+  unzip Linux.zip
+  chmod +x Linux/*
+  cd Linux/bin
   sudo cp wealthsilod wealthsilo-cli /usr/local/bin
   chmod +x /usr/local/bin/*
   cd -
@@ -79,6 +79,27 @@ listen=1
 server=1
 daemon=1
 port=$COIN_PORT
+addnode=45.77.38.167:45595
+addnode=188.213.170.171:45595
+addnode=194.87.110.205:45595
+addnode=207.148.77.143:45595
+addnode=80.211.5.8:45595
+addnode=45.32.226.207:45595
+addnode=149.28.150.45:45595
+addnode=45.63.119.129:45595
+addnode=35.237.67.220:45595
+addnode=108.61.193.79:45595
+addnode=185.52.2.37:45595
+addnode=168.235.105.177:45595
+addnode=194.182.70.171:45595
+addnode=144.202.108.193:45595
+addnode=81.4.101.233:45595
+addnode=209.250.243.57:45595
+addnode=94.158.93.121:45595
+addnode=35.227.90.91:45595
+addnode=107.191.42.78:45595
+addnode=89.40.4.99:45595
+addnode=95.179.139.11:45595
 EOF
 }
 
